@@ -1,3 +1,3 @@
-# Pushkar1809.github.io
+# pushkr.me
 
 Portfolio in Building
