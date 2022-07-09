@@ -1,0 +1,9 @@
+[
+	{
+		"name": "Skill",
+		"description": "small description",
+		"type": "skill",
+		"confidence": "Fluent",
+		"icon": "fa-code"
+	}
+]

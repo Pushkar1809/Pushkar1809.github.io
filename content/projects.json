@@ -1,0 +1,27 @@
+[
+	{
+		"key": 1,
+		"name": "ProjectName",
+		"shortDescription": "Project short description",
+		"tags": ["tag1", "tag2"],
+		"isHackathonRelated": true,
+		"hackathonName": "HackathonName",
+		"startedAt": "January 2020",
+		"endedAt": "January 2021",
+		"description": "Project description",
+		"isWorking": true,
+		"isLive": true,
+		"links": [
+			{
+				"where": "devfolio",
+				"link": "https://devfolio.com"
+			}
+		],
+		"images": [
+			{
+				"src": "https://devfolio.com/image.png",
+				"alt": "image alt"
+			}
+		]
+	}
+]
