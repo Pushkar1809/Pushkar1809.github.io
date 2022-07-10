@@ -1,0 +1,15 @@
+@import "variables";
+
+.badge {
+	display: inline-block;
+	padding: 0.25em 0.4em;
+	font-size: 75%;
+	font-weight: 600;
+	line-height: 1;
+	color: $dark;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: 0.25rem;
+	background: linear-gradient(-45deg, $accent1, $accent2);
+}
