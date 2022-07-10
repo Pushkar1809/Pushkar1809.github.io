@@ -1,7 +1,6 @@
 import Nav from "../common/Nav";
 import MobileNav from "../common/MobileNav";
 import { FC, ReactNode } from "react";
-import Footer from "../common/Footer";
 // import { useWindowDim } from "../../hooks/useWindowDim";
 
 interface Props {
@@ -18,7 +17,6 @@ const AppWrapper: FC<Props> = ({ children }: Props) => {
 				<Nav />
 			)}
 			{children}
-			<Footer />
 		</main>
 	);
 };
