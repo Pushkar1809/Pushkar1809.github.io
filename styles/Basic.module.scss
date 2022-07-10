@@ -126,6 +126,7 @@
 	}
 }
 
+// Tablet
 @media screen and (max-width: 768px) {
 	.hero {
 		grid-template:
@@ -180,6 +181,7 @@
 	}
 }
 
+// Mobile
 @media screen and (max-width: 500px) {
 	.main {
 		padding-top: 4rem;

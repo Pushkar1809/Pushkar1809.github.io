@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { FC } from "react";
-import Styles from "../styles/Home.module.scss";
+import Styles from "../styles/Basic.module.scss";
 import ArrowDown from "./common/ArrowDown";
 
 const Hero: FC = () => {

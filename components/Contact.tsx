@@ -2,7 +2,7 @@ import { FC } from "react";
 import data from "../content/socialContact.json";
 import { Social } from "../types/Social";
 import { useNow } from "../hooks/useNow";
-import Styles from "../styles/Home.module.scss";
+import Styles from "../styles/Basic.module.scss";
 
 const Contact: FC = () => {
 	const socials = data as Social[];

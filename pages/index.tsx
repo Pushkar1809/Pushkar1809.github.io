@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import styles from "../styles/Home.module.scss";
+import styles from "../styles/Basic.module.scss";
 import Hero from "../components/Hero";
 import Work from "../components/Work";
 import Skills from "../components/Skills";
