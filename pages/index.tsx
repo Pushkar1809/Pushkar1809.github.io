@@ -1,6 +1,10 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "../styles/Home.module.scss";
+import Hero from "../components/Hero";
+import Work from "../components/Work";
+import Skills from "../components/Skills";
+import Contact from "../components/Contact";
 
 const Home: NextPage = () => {
 	return (
@@ -12,7 +16,10 @@ const Home: NextPage = () => {
 			</Head>
 
 			<main className={styles.main}>
-				<h1>Wow Portfolio</h1>
+				<Hero />
+				<Work />
+				<Skills />
+				<Contact />
 			</main>
 		</div>
 	);
