@@ -2,31 +2,11 @@ import { FC } from "react";
 import Styles from "../../styles/Common.module.scss";
 import Image from "next/image";
 import Link from "next/link";
-
-interface NavLink {
-	name: string;
-	url: string;
-}
+import data from "../../content/navlinks.json";
+import { NavLink } from "../../types/Nav";
 
 const Nav: FC = () => {
-	const navlinks: NavLink[] = [
-		{
-			name: "Intro",
-			url: "",
-		},
-		{
-			name: "Projects",
-			url: "#projects",
-		},
-		{
-			name: "Skills",
-			url: "#skills",
-		},
-		{
-			name: "Contact",
-			url: "#contact",
-		},
-	];
+	const navlinks = data as NavLink[];
 	return (
 		<nav className={Styles.nav}>
 			<Image src="/logo/logo-dark.png" alt="logo" width={112} height={32} />

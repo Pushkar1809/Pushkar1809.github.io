@@ -1,19 +1,24 @@
 import { useState } from "react";
 
-export const useWindowDim = () => {
-	const [windowDimensions, setWindowDimensions] = useState({
+interface WinDim {
+	width: number;
+	height: number;
+}
+
+export const useWindowDim = (): WinDim => {
+	const [windowDimensions, setWindowDimensions] = useState<WinDim>({
 		width: window.innerWidth,
 		height: window.innerHeight,
 	});
+	if (typeof window !== undefined) {
+		const handleResize = (): void => {
+			setWindowDimensions({
+				width: window.innerWidth,
+				height: window.innerHeight,
+			});
+		};
 
-	const handleResize = () => {
-		setWindowDimensions({
-			width: window.innerWidth,
-			height: window.innerHeight,
-		});
-	};
-
-	window.addEventListener("resize", handleResize);
-
+		window.addEventListener("resize", handleResize);
+	}
 	return windowDimensions;
 };
