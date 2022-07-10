@@ -4,5 +4,17 @@
 		"type": "Tech",
 		"url": "https://github.com/Pushkar1809",
 		"username": "Pushkar1809"
+	},
+	{
+		"name": "LinkedIn",
+		"type": "Tech",
+		"url": "https://www.linkedin.com/in/pushkar-borkar/",
+		"username": "Pushkar Borkar"
+	},
+	{
+		"name": "Twitter",
+		"type": "Tech",
+		"url": "https://twitter.com/PushkarBorkar",
+		"username": "@PushkarBorkar"
 	}
 ]

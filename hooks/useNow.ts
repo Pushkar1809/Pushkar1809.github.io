@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const MONTHS = [
+const MONTHS: string[] = [
 	"January",
 	"February",
 	"March",
@@ -15,10 +15,15 @@ const MONTHS = [
 	"December",
 ];
 
-export const useNow = () => {
-	const [now, setNow] = useState(new Date());
+interface NowObject {
+	date: string;
+	time: string;
+}
 
-	const handleTick = () => {
+export const useNow = (): NowObject => {
+	const [now, setNow] = useState<Date>(new Date());
+
+	const handleTick = (): void => {
 		setNow(new Date());
 	};
 
@@ -26,6 +31,6 @@ export const useNow = () => {
 
 	return {
 		time: `${now.getHours()}:${now.getMinutes()}`,
-		date: `${MONTHS[now.getMonth()]}${now.getDate()}, ${now.getFullYear()}`,
+		date: `${MONTHS[now.getMonth()]} ${now.getDate()}, ${now.getFullYear()}`,
 	};
 };
