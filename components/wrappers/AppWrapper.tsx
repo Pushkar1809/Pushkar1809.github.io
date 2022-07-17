@@ -1,21 +1,28 @@
 import Nav from "../common/Nav";
 import MobileNav from "../common/MobileNav";
 import { FC, ReactNode } from "react";
-// import { useWindowDim } from "../../hooks/useWindowDim";
+import { useWindowSize } from "../../hooks/useWindowSize";
+import { useRouter } from "next/router";
 
 interface Props {
 	children: ReactNode;
 }
 
 const AppWrapper: FC<Props> = ({ children }: Props) => {
-	// const { width } = useWindowDim();
+	const { width } = useWindowSize();
+	const { pathname} = useRouter();
 	return (
 		<main>
-			{typeof window !== "undefined" && window.innerWidth < 500 ? (
-				<MobileNav />
-			) : (
-				<Nav />
+			{pathname === "/" && (
+				<>
+					{typeof width !== undefined && Number(width) < 500 ? (
+						<MobileNav />
+					) : (
+						<Nav />
+					)}
+				</>
 			)}
+
 			{children}
 		</main>
 	);

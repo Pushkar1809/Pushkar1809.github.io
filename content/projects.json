@@ -1,26 +1,233 @@
 [
 	{
-		"key": 1,
-		"name": "ProjectName",
-		"shortDescription": "Project short description",
-		"tags": ["tag1", "tag2"],
-		"isHackathonRelated": true,
-		"hackathonName": "HackathonName",
-		"startedAt": "January 2020",
-		"endedAt": "January 2021",
-		"description": "Project description",
-		"isWorking": true,
+		"key": 0,
+		"name": "My Portfolio",
+		"shortDescription": "",
+		"tags": ["Next.js", "React", "Framer Motion"],
+		"isHackathonRelated": false,
+		"hackathonName": "",
+		"startedAt": "Jul, 2022",
+		"endedAt": "Jul, 2022",
+		"description": "",
+		"inProgress": false,
 		"isLive": true,
 		"links": [
 			{
-				"where": "devfolio",
-				"link": "https://devfolio.com"
+				"where": "GitHub",
+				"link": "https://github.com/Pushkar1809"
+			},
+			{
+				"where": "Live",
+				"link": "https://pushkr.me"
 			}
 		],
 		"images": [
 			{
-				"src": "https://devfolio.com/image.png",
-				"alt": "image alt"
+				"src": "/projectAssets/portfolio.png",
+				"alt": "landing"
+			}
+		]
+	},
+	{
+		"key": 1,
+		"name": "Onboard Web3 Learning",
+		"shortDescription": "Learning Platform that rewards you with NFT badges in learning",
+		"tags": [
+			"React",
+			"ChakraUI",
+			"MongoDB",
+			"ethers.js",
+			"Solidity",
+			"Hardhat"
+		],
+		"isHackathonRelated": true,
+		"hackathonName": "BuildQuest - EthGlobal",
+		"startedAt": "Apr, 2022",
+		"endedAt": "*",
+		"description": "Onboard is a Web3 Learning Platform that rewards the users that take various quests and quizzes with NFT badges. Precisely Onboard is a suite of applications, currently there are two applications made in Onboard.\n\nThe first application is a Builder where users/DAOs can come and create different quizzes and quests that can be consumed by others. By making these quizzes and quest they can educate their communities and also earn reputation.\n\nThe second one is a App where users come to consume the various quizzes and quests made by others and earn NFT badges by participating in various of these.\n\nThere is yet another part for the application i.e. a Node.js backend that talks to a mongoDB server that stores the data for all the quests and quizzes.",
+		"inProgress": true,
+		"isLive": false,
+		"links": [
+			{
+				"where": "GitHub",
+				"link": "https://github.com/OnboardMetaGame"
+			}
+		],
+		"images": [
+			{
+				"src": "/projectAssets/onboard/onboard-1.png",
+				"alt": "logo"
+			}
+		]
+	},
+	{
+		"key": 2,
+		"name": "Stroller Protocol",
+		"shortDescription": "Protocol to earn yield on ERC20 tokens without having to wrap them to Super Tokens.",
+		"tags": ["React", "ChakraUI", "Moralis", "Superfluid", "Chainlink"],
+		"isHackathonRelated": true,
+		"hackathonName": "Road to Web3 - ETHGlobal (Winner)",
+		"startedAt": "Feb, 2022",
+		"endedAt": "Mar, 2022",
+		"description": "Currently users have no option other than wrapping surplus ERC20 tokens to keep the streams running. These tokens do not earn interest since Superfluid protocol is relatively new and DeFi is yet to be introduced on streams. \n\nStroller Protocol allows users to earn yield on ERC20 tokens without the compulsion of having to wrap them to Super Tokens. This is enabled by creating Strollers which top-up the streams with just enough Super tokens to keep the streams running without any penalties.\n\nUsers can invest their tokens in other DeFi protocols like AAVE, Harvest, etc. and approve the receipt tokens for our contracts. For example, Alex invests USDT in AAVE and gets amUSDT in return. She approves amUSDT for our contracts and creates a stroller. Whenever her USDTx stream will have low balance to keep the stream running for a threshold, these amUSDT tokens will be converted to USDT and transferred to Alex as USDTx.\n\nUsing the Top-Up service provided by Stroller Protocol, users can now be tension free about their streams running dry. Approve, create a stroller and relax. The protocol handles the headaches for you.",
+		"inProgress": false,
+		"isLive": true,
+		"links": [
+			{
+				"where": "GitHub",
+				"link": "https://github.com/DAM-Protocol/Stroller-Protocol"
+			},
+			{
+				"where": "Live",
+				"link": "https://stroller.dam.io"
+			},
+			{
+				"where": "Showcase",
+				"link": "https://github.com/OnboardMetaGame"
+			}
+		],
+		"images": [
+			{
+				"src": "/projectAssets/stroller/stroller-1.png",
+				"alt": "cover"
+			},
+			{
+				"src": "/projectAssets/stroller/stroller-2.png",
+				"alt": "dashboard"
+			},
+			{
+				"src": "/projectAssets/stroller/stroller-3.png",
+				"alt": "token selector"
+			}
+		]
+	},
+	{
+		"key": 3,
+		"name": "Reindeer Protocol",
+		"shortDescription": "Protocol to manage your notification on Web3 Platforms",
+		"tags": ["React", "ChakraUI", "Moralis"],
+		"isHackathonRelated": true,
+		"hackathonName": "Avalanch Moralis Hackathon",
+		"startedAt": "Dec, 2021",
+		"endedAt": "Jan, 2022",
+		"description": "Reindeer is a one-stop solution for all your dapp notifications! Not only push notifications, but also email, Discord, and Telegram!!\n\nIndexing notify events on Avalanche, Reindeer.ski will notify you when a new notification event is published by your favourite dapps. Publishers can use their private keys to sign the notifications, and Reindeer.ski will verify the signature and send the notification to the intended recipients!\n\nWe provide a simple API to register your users and send notifications to them.",
+		"inProgress": false,
+		"isLive": true,
+		"links": [
+			{
+				"where": "GitHub",
+				"link": "https://github.com/Reindeer-ski/reindeer"
+			},
+			{
+				"where": "Live",
+				"link": "https://reideer.tk"
+			}
+		],
+		"images": []
+	},
+	{
+		"key": 4,
+		"name": "GHODA.crypto: Shatranj",
+		"shortDescription": "Chess Game on Web3 where you are rewarded with NFTs for wins and you can use these NFTs as skins. And you can Bet on games!!!",
+		"tags": ["React", "AntD", "Moralis", "IPFS", "StackOS", "Infura"],
+		"isHackathonRelated": true,
+		"hackathonName": "BUIDLIt - Polygon (Winner)",
+		"startedAt": "Nov, 2021",
+		"endedAt": "Dec, 2021",
+		"description": "Shatranj is a one of its kind chess dapp. It brings together the legacy of chess and the ownership of web3 along with rewarding every winner with a UNIQUELY GENERATED AND MOST ARTSY CHESS NFT which can directly be sold on OpenSea.\n\nEach NFT provides the users with a chance to claim a special piece skin. This skin can be used in-game to customise the pieces.\n\nWe believe that Web3 is about owning the facts. Players can own their pieces, NFTs and ELO ratings. What more does a chess-crypto enthusiast needs?",
+		"inProgress": false,
+		"isLive": true,
+		"links": [
+			{
+				"where": "GitHub",
+				"link": "https://github.com/Reindeer-ski/reindeer"
+			},
+			{
+				"where": "Showcase",
+				"link": "https://devfolio.co/projects/shatranj-d063"
+			},
+			{
+				"where": "Live",
+				"link": "https://shatranj.ga/"
+			}
+		],
+		"images": [
+			{
+				"src": "/projectAssets/shatranj/shatranj-1.png",
+				"alt": "nft display"
+			},
+			{
+				"src": "/projectAssets/shatranj/shatranj-2.png",
+				"alt": "the game"
+			},
+			{
+				"src": "/projectAssets/shatranj/shatranj-3.png",
+				"alt": "logic"
+			}
+		]
+	},
+	{
+		"key": 5,
+		"name": "ByteGIS",
+		"shortDescription": "Collaborative platform for handling GIS data",
+		"tags": ["React", "leaflet.js", "OpenGIS", "tailwind"],
+		"isHackathonRelated": true,
+		"hackathonName": "Microsoft: Imagine Cup (India Pre Finalist)",
+		"startedAt": "Oct, 2021",
+		"endedAt": "Nov, 2022",
+		"description": "Reindeer is a one-stop solution for all your dapp notifications! Not only push notifications, but also email, Discord, and Telegram!!\n\nIndexing notify events on Avalanche, Reindeer.ski will notify you when a new notification event is published by your favourite dapps. Publishers can use their private keys to sign the notifications, and Reindeer.ski will verify the signature and send the notification to the intended recipients!\n\nWe provide a simple API to register your users and send notifications to them.",
+		"inProgress": false,
+		"isLive": true,
+		"links": [
+			{
+				"where": "GitHub",
+				"link": "https://github.com/Pushkar1809/RapidGIS"
+			},
+			{
+				"where": "Live",
+				"link": "https://bytegis1.azureedge.net/"
+			}
+		],
+		"images": []
+	},
+	{
+		"key": 6,
+		"name": "MarsMello",
+		"shortDescription": "Browser based NFT Game, where you can buy NFT lands and set up mines to earn various assets",
+		"tags": ["React", "TheGraph", "Solidity", "web3.js", "openZeppelin"],
+		"isHackathonRelated": true,
+		"hackathonName": "EthOdyssey - ETHIndia (Winner)",
+		"startedAt": "Jul, 2021",
+		"endedAt": "Aug, 2021",
+		"description": "MarsMello is a truly decentralised Web3 game whose plot is based on colonising and industrialising Mars! MarsMello is an Idle-Open World-Strategy-Economy-Simulation Game!\n\nPlayers can buy plots of land (NFTs) in the game and setup factories (NFTs) and large industries on it.\n\nFactories will produce ERC20 resources which the players can claim and trade for other ERC20 tokens or ETH on UniSwap.\n\nPlayers must adopt strategies to maximise the profits as the Ore distribution and Factory efficiency will be randomised (Because Life is Unfair)\n\nAn In-Game Marketplace will enable users to trade and profit from the NFTs.\n\nGiven all the features and an open economy, it will be very lucrative to get hands on the game and start earning!\n\nThis would bring in the attention to blockchain in the most simplest gamified form possible.",
+		"inProgress": false,
+		"isLive": true,
+		"links": [
+			{
+				"where": "GitHub",
+				"link": "https://github.com/Pushkar1809/MarsMello"
+			},
+			{
+				"where": "Showcase",
+				"link": "https://devfolio.co/projects/marsmello-a90e"
+			},
+			{
+				"where": "Live",
+				"link": "https://marsmello.netlify.app/"
+			}
+		],
+		"images": [
+			{
+				"src": "/projectAssets/marsmello/marsmello-1.png",
+				"alt": "logo"
+			},
+			{
+				"src": "/projectAssets/marsmello/marsmello-2.png",
+				"alt": "landing"
+			},
+			{
+				"src": "/projectAssets/marsmello/marsmello-3.png",
+				"alt": "market"
 			}
 		]
 	}

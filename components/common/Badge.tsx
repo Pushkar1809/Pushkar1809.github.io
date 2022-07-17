@@ -1,8 +1,16 @@
 import { FC } from "react";
 import Styles from "../../styles/Common.module.scss";
 
-const Badge: FC = () => {
-	return <div className={Styles.badge}>Badge</div>;
+interface Props {
+	text: string;
+}
+
+const Badge: FC<Props> = ({ text }) => {
+	return (
+		<div className={Styles.badge}>
+			<span>{text}</span>
+		</div>
+	);
 };
 
 export default Badge;

@@ -1,1 +1,2 @@
-export const skillsText: string = "Following Text";
+export const skillsText: string =
+	"I am a front-end developer with elementary knowledge of back-end development. I am a quick learner and whenever I find something I don’t know I educated myself about that quickly.\n\nI am a front-end developer with elementary knowledge of back-end development. I am a quick learner and whenever I find something I don’t know I educated myself about that quickly.\n\nI am also accustomed to Figma for designing web experiences.";

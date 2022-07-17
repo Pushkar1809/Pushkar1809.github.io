@@ -9,6 +9,11 @@ body {
 	padding: 0;
 	margin: 0;
 	font-size: 16px;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+	&::-webkit-scrollbar {
+		display: none;
+	}
 }
 
 a {

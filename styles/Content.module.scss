@@ -1,1 +1,98 @@
 @import "variables";
+
+.work {
+	margin-top: 8rem;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	.title {
+		width: 85%;
+		padding: 1rem 2rem;
+		h2 {
+			font-size: 4rem;
+			font-weight: 300;
+			margin-bottom: 1rem;
+		}
+	}
+	.projects {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+
+		.project {
+			width: calc(100vw / 3);
+			min-width: 40ch;
+			height: 35ch;
+			padding: 1.5rem 3rem;
+			border: 0.75px solid rgba($light, 0.35);
+			transition: all 0.2s ease-in-out;
+			position: relative;
+			cursor: pointer;
+			&:hover {
+				border: 1px solid $accent1;
+			}
+			.name {
+				position: relative;
+				width: 80%;
+				h3 {
+					font-size: 2rem;
+					font-weight: 200;
+					line-height: 2.5rem;
+				}
+				margin-bottom: 1rem;
+				.ip {
+					position: absolute;
+					top: -1.6rem;
+					font-size: 0.75rem;
+					font-weight: 400;
+					color: rgba($light, 0.8);
+					padding: 0 0.25rem;
+					border-radius: 0.5rem;
+					background: rgb(201, 26, 47);
+				}
+			}
+			.date {
+				position: absolute;
+				top: 2rem;
+				right: 2rem;
+				font-size: 0.85rem;
+				font-weight: 300;
+				color: rgba($light, 0.8);
+			}
+			.tags {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 0.35rem;
+			}
+			.more {
+				position: absolute;
+				bottom: 3rem;
+				left: 3rem;
+				font-size: 0.85rem;
+				font-weight: 300;
+				color: rgba($light, 0.8);
+				cursor: pointer;
+				.link {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					padding: 0.1rem 0.5rem;
+					border-radius: 1rem;
+					border: 1px solid rgba($light, 0.6);
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.work .title {
+		padding: 0;
+		margin: 0 auto;
+		text-align: center;
+	}
+}

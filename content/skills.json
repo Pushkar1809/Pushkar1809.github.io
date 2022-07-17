@@ -1,9 +1,86 @@
 [
 	{
-		"name": "Skill",
-		"description": "small description",
-		"type": "skill",
-		"confidence": "Fluent",
-		"icon": "fa-code"
+		"name": "React",
+		"description": "UI Rendering Library in Javascript",
+		"type": "framework",
+		"confidence": 3,
+		"icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1200px-Visual_Studio_Code_1.35_icon.svg.png"
+	},
+	{
+		"name": "ChakraUI",
+		"description": "CSS Framework",
+		"type": "framework",
+		"confidence": 3,
+		"icon": "https://avatars.githubusercontent.com/u/54212428?v=4"
+	},
+	{
+		"name": "Next.js",
+		"description": "Framework for React",
+		"type": "framework",
+		"confidence": 1,
+		"icon": "https://camo.githubusercontent.com/92ec9eb7eeab7db4f5919e3205918918c42e6772562afb4112a2909c1aaaa875/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313630373535343338352f7265706f7369746f726965732f6e6578742d6a732f6e6578742d6c6f676f2e706e67"
+	},
+	{
+		"name": "Node/Express",
+		"description": "Backend Framework for Javascript",
+		"type": "framework",
+		"confidence": 2,
+		"icon": "https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"
+	},
+	{
+		"name": "MongoDB",
+		"description": "Database",
+		"type": "framework",
+		"confidence": 3,
+		"icon": "https://www.tutorialsteacher.com/Content/images/home/mongodb.svg"
+	},
+	{
+		"name": "Jest",
+		"description": "Test Framework",
+		"type": "framework",
+		"confidence": 1,
+		"icon": "https://miro.medium.com/max/600/1*i37IyHf6vnhqWIA9osxU3w.png"
+	},
+	{
+		"name": "ether.js",
+		"description": "Web3 Framework",
+		"type": "framework",
+		"confidence": 2,
+		"icon": "https://gitcoin.co/blog/wp-content/uploads/2022/07/ethersjs.png"
+	},
+	{
+		"name": "JavaScript",
+		"description": "Browser Language",
+		"type": "language",
+		"confidence": 3,
+		"icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
+	},
+	{
+		"name": "TypeScript",
+		"description": "Typed JavaScript",
+		"type": "language",
+		"confidence": 2,
+		"icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/640px-Typescript_logo_2020.svg.png"
+	},
+	{
+		"name": "Python",
+		"description": "Scripting Language",
+		"type": "language",
+		"confidence": 2,
+		"icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
+	},
+	{
+		"name": "C++",
+		"description": "Scripting Language",
+		"type": "language",
+		"confidence": 3,
+		"icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png"
+	},
+	{
+		"name": "Solidity",
+		"description": "Contract Language",
+		"type": "language",
+		"confidence": 1,
+		"icon": "https://assets-global.website-files.com/6171e9fea621c67e12b9f9be/61b7ba6e7d27f6632e77bf33_logo.svg"
 	}
 ]
